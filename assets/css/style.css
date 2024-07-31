@@ -786,7 +786,7 @@ header {
 }
 
 .footer-top {
-    padding-top: 50px;
+    padding: 50px 20px 0 20px;
 }
 
 .copyright {
@@ -910,22 +910,25 @@ footer .social-links a {
 
 
 }
-.nav-mera{
+
+.nav-mera {
     position: relative;
 }
-.nav-mera::after{
+
+.nav-mera::after {
     content: '';
-    height: 2px  ;
+    height: 2px;
     width: 20px;
-    background-color:black ;
+    background-color: black;
     position: absolute;
 }
-.nav-link ul li{
+
+.nav-link ul li {
     cursor: pointer !important;
 }
 
 @media (min-width: 320px) {
-     .nav-menu {
+    .nav-menu {
         display: none;
         position: fixed;
         overflow: hidden;
@@ -935,8 +938,9 @@ footer .social-links a {
         padding: 0;
         z-index: 9997;
     }
+
     .nav-menu ul {
-        
+
         position: absolute;
         inset: 60px 20px 20px 20px;
         padding: 10px 0;
@@ -949,9 +953,11 @@ footer .social-links a {
         transition: 0.3s;
         z-index: 9998;
     }
+
     .nav-menu a:hover {
         color: #008374;
     }
+
     .nav-menu a {
         color: #01433c;
         padding: 10px 20px;
@@ -964,7 +970,8 @@ footer .social-links a {
         white-space: nowrap;
         transition: 0.3s;
     }
-    nav i{
+
+    nav i {
         color: #fff;
         position: absolute;
         font-size: 32px;
